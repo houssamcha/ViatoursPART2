@@ -1,36 +1,129 @@
-body{
-    margin :0;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f2f2f2;
 }
-.Viatourslogo{
-    padding-left: 8%;
-    padding-right: 10%;
-    padding-bottom: 1%;
-}
-header{
-    background-color:rgba(249, 221, 212, 0.348);
+.header {
+    width: 100%;
+    height: 60px;
     display: flex;
-    justify-content: start;
     align-items: center;
-    height: 40%;
-    padding-top: 1%;
-    padding-left: 0%;
-    margin-left : -90px;
-}
-.button{
-    background-color: hwb(25 23% 9%);
-    cursor: pointer;
-    color: white;
-    padding-top: 1%;
-    padding-bottom:1%;
-    border: none;
-}
-nav{
-    margin-right: 10%;
+    background-color: #FDF0EA;
 }
 
-nav ul li a{
+.logo {
+    padding: 0 20px;
+    width: 160px; 
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 2%;
+
+}
+
+.nav a {
+    margin-right: 20px;
+    font-size: 100%;
     text-decoration: none;
-    color: black;
+    cursor: pointer;
+
+}
+
+
+.nav a:hover{
+
+    color: #EB662B;
+}
+
+
+
+.button {
+    width: 60px;
+    height: 30px;
+    background-color: #EB662B;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: transform 0.6s ease;
+
+}
+
+.button:hover {
+    transform: scale(1.05); 
+}
+body {
+    font-family: "Rubik", sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #dd8131;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color:rgba(249, 221, 212, 0.348);
+    justify-content: start;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+footer h3 {
+    margin-bottom: 1px;
 }
